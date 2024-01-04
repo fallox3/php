@@ -1,0 +1,27 @@
+PHP Operacje na plikach - zadania
+Zadanie 1
+Utw�rz plik tekstowy plik1.txt zawieraj�cy tekst "Stary tekst w pliku."
+a. Wy�wietl zawarto�� pierwszych 8 znak�w na ekranie.
+b. Wy�wietl zawarto�� ca�ego pliku.
+c. Wy�wietl zawarto�� ca�ego pliku (funkcja fread() ).
+d. Wy�wietl zawarto�� ca�ego pliku, a w przypadku niepowodzenia jego otwarcia komunikat "Nie mog� otworzy� pliku!". Wykorzystaj konsrukcj� 'or die'.
+e. W�wietl zawarto�� ca�ego pliku korzystaj�c z funkcji stream_get_contents (dla PHP 5 i wy�szych).
+
+Zadanie 2
+- Otw�rz plik plik1.txt w trybie do odczytu i zapisu. 
+Wy�wietl na ekranie tekst z pliku. Dopisz tekst na ko�cu pliku "Nowy tekst dopisany na ko�cu pliku".
+Wykorzystaj w tym celu formularze HTML. Tekst ma by� dopisany do pliku po klikni�ciu na przycisku 'Dodaj tekst'
+
+Zadanie 3
+Otw�rz plik plik1.txt w trybie do zapisu. Dopisz tekst na pocz�tku pliku "Nowy tekst dopisany na pocz�tku pliku". Wykorzystaj funkcj� rewind().
+
+Zadanie 4
+Utw�rz plik tekstowy o nazwie wiersz.txt. Wpisz jako tre�� przyk�adowe 4 linie tekstu.
+Wy�wietl zawarto�� pliku na ekranie. Podzia� na linie tekstu ma pozosta� zachowany.
+a. Wykorzystaj p�tl� while i funkcj� fgets().
+b. Wykorzystaj funkcj� fread().
+W obydwu przypadkach u�yj funkcji nl2br().
+
+Zadanie 5.
+Utw�rz plik tekstowy nazwiska.txt w kt�rym wpiszesz w kolejnych wierszach 4 nazwiska w przpadkowej kolejno�ci (nie posortowanie alfabetycznie).
+Napisz skrypt, kt�ry wy�wietli nazwiska z oryginalnego pliku, posortuje nazwiska w kolejno�ci alfabetycznej i zapisze nazwiska w nowo utworzonym pliku o nazwie nazwiska-alfabetycznie.txt.
